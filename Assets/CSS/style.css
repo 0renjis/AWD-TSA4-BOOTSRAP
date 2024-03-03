@@ -1,0 +1,146 @@
+body {
+    background-color: #FFC0D9 !important; 
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #F5EEE6 !important;
+}
+
+.navbar .navbar-brand {
+    order: 0;
+    color: #e81368 !important;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar .navbar-nav {
+    order: 1;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-item {
+    order: 2;
+}
+
+.navbar-nav .nav-item button {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ffcde1;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e81368 !important;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.text-center p {
+    font-weight: 300;
+}
+
+.card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #F5EEE6 !important;
+}
+
+.card-header {
+    width: 100%
+}
+
+.price {
+    font-size: 2.5em; 
+}
+
+.per-month {
+    font-size: 1.2em; 
+    font-weight: 400; 
+    color: #6c757d;
+    font-size: 2em; 
+}
+
+.card-text {
+    font-size: 0.8em;
+    color: black;
+}
+
+a.btn-custom {
+    color:  white !important;
+    background-color: #FF90BC !important;
+    border-color:  #e81368 !important;
+    font-size: 1em;
+    padding: 5px 50px;
+}
+
+a.btn-custom-white {
+    color:  white !important;
+    background-color: #FF90BC !important;
+    border-color:  #e81368 !important;
+    font-size: 1em;
+    padding: 5px 70px;
+}
+
+.footer {
+    background-color: #F5EEE6 !important;
+}
+
+.footer ul li a {
+    color: gray; 
+    font-size: 1em;
+}
+
+.footer h2 {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #e81368 !important; 
+    color: white !important;
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .navbar-nav,
+    .navbar .nav-item {
+        order: 0;
+    }
+
+    .navbar .navbar-nav {
+        flex-direction: row;
+    }
+}
